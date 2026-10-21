@@ -1,0 +1,2 @@
+# gumpuwnompo
+Nompowympy empelampastympycznympy jęmpęzympyk dompo rompozmompowympy impi kompodompowampanimpiampa umpukrympytympych wimpiampadompomompościmpi ompoprampacompowampanympy przempez kampamemperzympystempe
