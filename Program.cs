@@ -53,6 +53,7 @@ class Program
                 case "0":
                     Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.WriteLine("\n  Wympypiemperdampalampaj!");
+                    Console.ReadKey();
                     Console.ResetColor();
                     return;
                 default:
@@ -133,8 +134,8 @@ class Program
 
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine(naLingua
-            ? "  TRYB: POLSKI -> LINGUA"
-            : "  TRYB: LINGUA -> POLSKI");
+            ? "  TRYB: POLSKI -> JĘMPĘZYMPYK"
+            : "  TRYB: JĘMPĘZYMPYK -> POLSKI");
 
         Console.ForegroundColor = ConsoleColor.DarkGray;
         Console.WriteLine("  Wpisz tekst i naciśnij ENTER.");
@@ -164,7 +165,7 @@ class Program
         Console.ResetColor();
 
         Historia.Add(
-            (naLingua ? "PL > LINGUA: " : "LINGUA > PL: ")
+            (naLingua ? "PL > JĘMPĘZYMPYK: " : "JĘMPĘZYMPYK > PL: ")
             + tekst + " => " + wynik);
 
         Console.ForegroundColor = ConsoleColor.Magenta;
@@ -209,8 +210,8 @@ class Program
         Console.WriteLine("  O PROJEKCIE\n");
         Console.ResetColor();
 
-        Console.WriteLine("  Nazwa:       LINGUA AAA");
-        Console.WriteLine("  Wersja:      1.0");
+        Console.WriteLine("  Nazwa:       JĘMPĘZYMPYK AAA");
+        Console.WriteLine("  Wersja:      1.1");
         Console.WriteLine("  Technologia: C#");
         Console.WriteLine("  Biblioteki:  Systemowe");
         Console.WriteLine();
@@ -218,7 +219,9 @@ class Program
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("  a -> ampa");
         Console.WriteLine("  e -> empe");
+        Console.WriteLine("  i -> impi");
         Console.WriteLine("  o -> ompo");
+        Console.WriteLine("  u -> umpu");
         Console.ResetColor();
 
         Console.WriteLine("\n  Naciśnij ENTER, aby wrócić.");
